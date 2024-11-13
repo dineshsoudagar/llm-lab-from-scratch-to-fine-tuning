@@ -29,5 +29,13 @@ def convert_tokens_to_token_ids_sample():
         if i >= 50:
             break
 
+    sample_text = raw_text[:99]
+    preprocessed = re.split(r'([,.:;?_!"()\']|--|\s)', sample_text)
+    tokens = [vocab[token] for token in preprocessed]
+    print("Sample text", sample_text)
+    print("Sample token ids", tokens)
+
+
+
 # print_sample()
 convert_tokens_to_token_ids_sample()
