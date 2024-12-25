@@ -1,7 +1,5 @@
 from transformers import GPT2LMHeadModel
 import torch
-import torch.nn as nn
-from pytorch_small_gpt_model import SmallGPT
 
 # Load the pretrained Hugging Face GPT-2 model
 pretrained_model_name = "gpt2"  # Change to "gpt2-medium", "gpt2-large" as needed
