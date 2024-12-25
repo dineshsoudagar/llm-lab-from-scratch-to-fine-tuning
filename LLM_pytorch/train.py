@@ -74,9 +74,9 @@ def main():
     model = GPTModel(GPT_CONFIG_124M).to(DEVICE)
     model.eval()
 
-    with open("data/wiki/wiki_train.txt", "r", encoding="utf-8") as file:
+    with open("../data/wiki/wiki_train.txt", "r", encoding="utf-8") as file:
         train_data = file.read()
-    with open("data/wiki/wiki_test.txt", "r", encoding="utf-8") as file:
+    with open("../data/wiki/wiki_test.txt", "r", encoding="utf-8") as file:
         val_data = file.read()
 
     # Train/validation ratio
