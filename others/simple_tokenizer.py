@@ -40,5 +40,6 @@ def test(text_file):
     print(ids)
     print(tokens)
 
-file = "data/the-verdict.txt"
+# file = "data/the-verdict.txt"
+file = "../data/Evaluation of Multi-Task Vs. Single.txt"
 test(file)

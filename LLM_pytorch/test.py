@@ -48,7 +48,7 @@ def main():
     torch.manual_seed(155)
     model = GPTModel(NEW_CONFIG)
     model.eval()
-    settings, params = download_and_load_gpt2(model_size="1558M", models_dir="gpt2")
+    settings, params = download_and_load_gpt2(model_size="1558M", models_dir="../gpt2")
     load_weights_into_gpt(model, params)
     model.to(DEVICE)
     torch.manual_seed(123)
