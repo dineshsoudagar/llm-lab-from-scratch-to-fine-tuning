@@ -1,7 +1,8 @@
 import torch
 from transformers import GPT2Tokenizer, GPT2LMHeadModel
 
-model_name = "gpt2"  # Use "gpt2" for the small GPT-2 model
+# Use "gpt2" for the small GPT-2 model
+model_name = "gpt2"
 # Load the tokenizer and model
 tokenizer = GPT2Tokenizer.from_pretrained(model_name)
 tokenizer.pad_token = tokenizer.eos_token
