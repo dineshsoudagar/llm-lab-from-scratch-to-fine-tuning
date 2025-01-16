@@ -1,4 +1,6 @@
 import json
+
+
 def load_json(json_file_path):
     """
     :param json_file_path: Path to json file
