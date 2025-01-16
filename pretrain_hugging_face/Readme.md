@@ -3,8 +3,6 @@
 This folder contains scripts for pretraining and running inference on **Hugging Face models**. These scripts focus on pretraining models like GPT from scratch using **Hugging Face Transformers** and performing inference on the trained models.
 
 ## Contents
-
-### Core Scripts
 - [dataset.py](dataset.py)  
   Script for preparing and processing datasets for pretraining Hugging Face models.
 
