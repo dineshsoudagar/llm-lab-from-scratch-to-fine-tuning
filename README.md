@@ -1,6 +1,6 @@
 # LLMs Repository
 
-This repository contains a collection of scripts, notebooks, and tools for working with **Large Language Models (LLMs)**. It includes resources for pretraining models using **Hugging Face Transformers**, fine-tuning **litGPT models** with **PyTorch Lightning**, and running inference on fine-tuned models. The repository also provides efficient fine-tuning through **LoRA (Low-Rank Adaptation)**, which helps in training large models with fewer parameters.
+This repository provides a collection of scripts and resources for working with Large Language Models (LLMs). It includes tools for training, fine-tuning, pretraining, and inference using various models such as litGPT, Hugging Face Transformers, and GPT models. The code leverages popular frameworks like PyTorch and PyTorch Lightning to facilitate efficient model development and deployment. Additionally, the repository supports LoRA (Low-Rank Adaptation) for parameter-efficient fine-tuning of large models.
 
 ## Contents
 
