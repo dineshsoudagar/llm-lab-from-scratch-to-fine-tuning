@@ -1,38 +1,63 @@
-# LLMs Repository
 
-This repository provides a collection of scripts and resources for working with Large Language Models (LLMs). It includes tools for training, fine-tuning, pretraining, and inference using various models such as litGPT, Hugging Face Transformers, and GPT models. The code leverages popular frameworks like PyTorch and PyTorch Lightning to facilitate efficient model development and deployment. Additionally, the repository supports LoRA (Low-Rank Adaptation) for parameter-efficient fine-tuning of large models.
+# LLM Lab: From Scratch to Fine-Tuning
 
-## Contents
-
-### [Introduction_to_LLMs](Introduction_to_LLMs)
-- A first step to understand Large Language Models. 
-
-###[LLMs_with_Hugging_Face](LLMs_with_Hugging_Face)
-- This folder includes scripts for pretraining and running inference on **Hugging Face models** (e.g., GPT). The scripts are designed to work with **Hugging Face Transformers** for training models from scratch and running inference on pretrained models. 
-
-### [Finetune_LLMs_with_Litgpt](Finetune_LLMs_with_Litgpt)[litgpt_scripts/](litgpt_scripts/)
-- This folder contains scripts and notebooks for fine-tuning **litGPT models** (LLMs) using **PyTorch Lightning**. It includes LoRA support for efficient fine-tuning of large models, allowing the training of language models with fewer parameters and faster convergence.
-
-### [GPT_from_scratch](GPT_from_scratch)
-- Scripts focused on implementing and training GPT models from scratch using **PyTorch**. This folder contains tools for building and training custom GPT models using the PyTorch framework.
-
-## Key Features
-
-- **Pretraining with Hugging Face Models**: Easily train GPT models using Hugging Face’s popular **Transformers** library.
-- **Fine-Tuning with litGPT**: Fine-tune pre-trained litGPT models for specific tasks using **PyTorch Lightning**.
-- **Efficient Fine-Tuning with LoRA**: Implement LoRA for parameter-efficient fine-tuning of large models.
-- **Inference Support**: Scripts for running inference on pretrained models and evaluating their performance.
-- **Flexible Framework**: Supports both Hugging Face and litGPT models, allowing you to choose the model architecture and training framework that best fits your needs.
-
-## Getting Started
-
-This repository provides a comprehensive framework for training and fine-tuning **Large Language Models** (LLMs). It includes everything you need to start experimenting with **Hugging Face Transformers**, **litGPT models**, and **LoRA** for efficient model fine-tuning.
-
-Feel free to explore and adapt the scripts, notebooks, and utilities in this repository to suit your LLM training and inference needs!
+This repository offers a comprehensive suite of resources and scripts for working with Large Language Models (LLMs). It encompasses tools for training, fine-tuning, pretraining, and inference using models like litGPT, Hugging Face Transformers, and custom GPT implementations. Leveraging frameworks such as PyTorch and PyTorch Lightning, it also supports Low-Rank Adaptation (LoRA) for efficient fine-tuning of large models.
 
 ---
 
-**Note:**  
-- Ensure that the required libraries are installed via `requirements.txt`.  
-- The scripts are modular, allowing easy integration with other training frameworks or models.
+## 📁 Repository Structure
+
+- **[Introduction_to_LLMs](Introduction_to_LLMs)**  
+  Foundational notebooks to understand LLM architectures, tokenization, and attention mechanisms.
+
+- **[LLMs_with_Hugging_Face](LLMs_with_Hugging_Face)**  
+  Scripts for pretraining and inference using Hugging Face Transformers, including training models from scratch and utilizing pretrained models.
+
+- **[Finetune_LLMs_with_Litgpt](Finetune_LLMs_with_Litgpt)**  
+  Resources for fine-tuning litGPT models using PyTorch Lightning, incorporating LoRA for parameter-efficient training.
+
+- **[GPT_from_scratch](GPT_from_scratch)**  
+  Implementations for building and training GPT models from the ground up using PyTorch.
+
+---
+
+## 🚀 Key Features
+
+- **Comprehensive Workflow**: Covers the entire LLM pipeline from foundational understanding to deployment.
+- **Framework Integration**: Utilizes Hugging Face, litGPT, and PyTorch for versatile model development.
+- **Efficient Fine-Tuning**: Implements LoRA for resource-effective model adaptation.
+- **Modular Design**: Scripts are organized for easy navigation and customization.
+- **Practical Applications**: Includes examples for real-world inference and deployment scenarios.
+
+---
+
+## 🛠️ Getting Started
+
+1. **Clone the Repository**:
+
+```bash
+git clone https://github.com/dineshsoudagar/LLM-Lab-From-Scratch-to-Fine-Tuning.git
+cd LLM-Lab-From-Scratch-to-Fine-Tuning
+```
+
+2. **Install Dependencies**:
+
+Ensure you have Python 3.8+ installed. Then, install the required packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+3. **Explore the Modules**:
+
+Navigate through the directories to explore different aspects of LLM development and fine-tuning.
+
+---
+
+## 📌 Notes
+
+- **Modularity**: Each module is self-contained, allowing you to focus on specific areas of interest.
+- **Customization**: Scripts can be adapted to suit different datasets and model configurations.
+- **Community Support**: Contributions and feedback are welcome to enhance the repository's value.
+---
 
