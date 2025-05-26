@@ -4,14 +4,17 @@ This repository provides a collection of scripts and resources for working with 
 
 ## Contents
 
-### [huggingface_scripts/](huggingface_scripts/)
-This folder includes scripts for pretraining and running inference on **Hugging Face models** (e.g., GPT). The scripts are designed to work with **Hugging Face Transformers** for training models from scratch and running inference on pretrained models. 
+### [Introduction_to_LLMs](Introduction_to_LLMs)
+- A first step to understand Large Language Models. 
 
-### [litgpt_scripts/](litgpt_scripts/)
-This folder contains scripts and notebooks for fine-tuning **litGPT models** (LLMs) using **PyTorch Lightning**. It includes LoRA support for efficient fine-tuning of large models, allowing the training of language models with fewer parameters and faster convergence.
+###[LLMs_with_Hugging_Face](LLMs_with_Hugging_Face)
+- This folder includes scripts for pretraining and running inference on **Hugging Face models** (e.g., GPT). The scripts are designed to work with **Hugging Face Transformers** for training models from scratch and running inference on pretrained models. 
 
-### [pytorch_gpt_scripts/](pytorch_gpt_scripts/)
-Scripts focused on implementing and training GPT models from scratch using **PyTorch**. This folder contains tools for building and training custom GPT models using the PyTorch framework.
+### [Finetune_LLMs_with_Litgpt](Finetune_LLMs_with_Litgpt)[litgpt_scripts/](litgpt_scripts/)
+- This folder contains scripts and notebooks for fine-tuning **litGPT models** (LLMs) using **PyTorch Lightning**. It includes LoRA support for efficient fine-tuning of large models, allowing the training of language models with fewer parameters and faster convergence.
+
+### [GPT_from_scratch](GPT_from_scratch)
+- Scripts focused on implementing and training GPT models from scratch using **PyTorch**. This folder contains tools for building and training custom GPT models using the PyTorch framework.
 
 ## Key Features
 
