@@ -13,7 +13,7 @@ This folder contains scripts for pretraining and running inference on **Hugging 
   A script for pretraining small GPT models using Hugging Face Transformers.
 
 - [train.py](train.py)  
-  The main training script that orchestrates the pretraining of Hugging Face models, including configuration and model training.
+  The main training script that for the pretraining of Hugging Face models, including configuration and model training.
 
 
 This folder is focused on pretraining and fine-tuning models with **Hugging Face Transformers**. 
